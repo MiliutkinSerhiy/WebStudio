@@ -1,0 +1,146 @@
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden
+}
+
+.body{
+    font-family: 'Roboto'
+    
+}
+
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;   
+    letter-spacing: 0.03em;
+    color: #000;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Web{
+ color: #2196F3;
+ list-style-type: none;
+ text-decoration: none;
+}
+
+.nav-list{
+list-style-type: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #212121;
+}
+.nav-list a:hover {
+    color: #2196F3;
+}
+
+.contact-list{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+list-style-type: none;
+}
+.contact-list a{
+    text-decoration: none;
+    color: #757575;
+}
+.contact-list a:hover{
+    color: #2196F3;
+}
+
+.hero{
+    background: #2F303A;
+}
+.hero-title{
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.hero-btn{
+    width: 216px;
+height: 50px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.features-text {
+    font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+list-style-type: none;
+}
+
+
+.section4-img {
+    width: 270px;
+    height: 260px;
+}
+
+.section4-text {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    list-style-type: none;
+}
+
+.section5 {
+background: #2F303A;
+}
+
+.logo-link--section5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section5-text {
+    font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
