@@ -14,11 +14,18 @@
   overflow: hidden;
 }
 
+.header {
+  width: 1600px;
+}
+
 .header-container {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 32px;
+  padding: 25px 0;
   justify-content: space-between;
+  align-items: center;
 }
 
 ul {
@@ -46,6 +53,22 @@ ul {
   color: #2196f3;
 }
 
+h1,
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .body {
   font-family: "Roboto";
 }
@@ -57,14 +80,10 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #000;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .Web {
   color: #2196f3;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .contact-link {
@@ -79,7 +98,6 @@ ul {
   letter-spacing: 0.02em;
 }
 .nav-list a {
-  text-decoration: none;
   color: #212121;
 }
 .nav-list a:hover {
@@ -91,10 +109,8 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  list-style-type: none;
 }
 .contact-list a {
-  text-decoration: none;
   color: #757575;
 }
 .contact-list a:hover {
@@ -125,13 +141,13 @@ ul {
   width: 1600px;
 }
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .hero-btn {
@@ -144,6 +160,7 @@ ul {
   letter-spacing: 0.06em;
   color: #ffffff;
   margin: 0 auto;
+  margin-bottom: 30px;
   display: block;
 
   background: #2196f3;
@@ -152,30 +169,47 @@ ul {
 }
 
 .section3 {
-  display: flex;
+}
+
+.section3-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
 }
 
 .section3-imgs {
   display: flex;
   width: 370px;
+  list-style-type: none;
 }
 
 .section4 {
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .section4-img {
   width: 270px;
 }
 
+.section4-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 48px;
+}
+
 .section4-text {
+  width: 1200px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #212121;
-  list-style-type: none;
 }
 
 .section5 {
